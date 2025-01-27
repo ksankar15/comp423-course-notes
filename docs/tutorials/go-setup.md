@@ -4,6 +4,20 @@ Primary Author: Kavin Sankar (https://github.com/ksankar15)
 
 This tutorial will teach you how to setup a devcontainer and create a basic Go program. You will not even need to have Go installed on your computer thanks to the power of devcontainers.
 
+<h3><strong>Prerequisites</strong></h3>
+
+Before we dive in, make sure you have:
+
+(1) A GitHub account: If you don’t have one yet, sign up at GitHub.
+
+(2) Git installed: Install Git if you don’t already have it.
+
+(3) Visual Studio Code (VS Code): Download and install it from here.
+
+(4) Docker installed: Required to run the dev container. Get Docker.
+
+(5) Command-line basics: Your COMP211 command-line knowledge will serve you well here. If in doubt, review the Learn a CLI text!
+
 <h3><strong>Part 1: Initialization and Setup</strong></h3>
 
 <h4><strong>Step 1: Create a Local Directory and initialize Git</strong></h4>
@@ -22,7 +36,7 @@ This tutorial will teach you how to setup a devcontainer and create a basic Go p
 (4) Create a README with a link to this page:
 
     echo "# Go Tutorial" > README.md
-    echo "Link to tutorial: https://ksankar15.github.io/comp423-course-notes/" >> README.md
+    echo "Link to tutorial: https://ksankar15.github.io/comp423-course-notes/tutorials/go-setup/" >> README.md
     git add README.md
     git commit -m "Initial commit with README"
 
@@ -121,8 +135,12 @@ This command creates an executable file named <code>hello_world</code> in your w
 (2) Next, run the following line in your terminal:
 
     ./hello_world
+    
+This command runs the compiled executable <code>hello_world</code> and prints out "Hello World" just like when we used the <code>go run main.go</code> command. But this time instead of using the <code>run</code> subcommand, which directly compiles and executes Go code without creating a seperate binary file, with the <code>build</code> subcommand, we compile source code into an executable binary file.
 
-This command runs the compiled executable <code>hello_world</code> and prints out "Hello World" just like when we used the <code>go run main.go</code> command. But this time instead of using the <code>run</code> subcommand, which directly compiles and executes Go code without creating a seperate binary file, with the <code>build</code> subcommand, we compile source code into an executable binary file. This process is similar to when in COMP 211 we would manually compiles C programs with <code>gcc</code> command to call the GNU C Compiler, which would give us an executable file <code>a.out</code> to run.
+!!! note 
+     This process is similar to when in COMP 211 we would manually compiles C programs with <code>gcc</code> command to call the GNU C Compiler, which would give us an executable file <code>a.out</code> to run.
+
 
 <h3><strong>Part 4: Pushing to GitHub</strong></h3>
 
