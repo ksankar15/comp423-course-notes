@@ -4,6 +4,18 @@ Primary Author: Kavin Sankar (https://github.com/ksankar15)
 
 This tutorial will teach you how to setup a devcontainer and create a basic Go program. You will not even need to have Go installed on your computer thanks to the power of devcontainers.
 
+<h3><strong>Prerequisites</strong></h3>
+
+Make sure you have:
+
+<ol>
+    <li> A GitHub account</li>
+    <li> Git installed</li>
+    <li> VS Code installed</li>
+    <li> Docker installed</li>
+    <li> Command Line and Terminal Experience</li>
+</ol>
+
 <h3><strong>Part 1: Initialization and Setup</strong></h3>
 
 <h4><strong>Step 1: Create a Local Directory and initialize Git</strong></h4>
@@ -22,7 +34,7 @@ This tutorial will teach you how to setup a devcontainer and create a basic Go p
 (4) Create a README with a link to this page:
 
     echo "# Go Tutorial" > README.md
-    echo "Link to tutorial: https://ksankar15.github.io/comp423-course-notes/" >> README.md
+    echo "Link to tutorial: https://ksankar15.github.io/comp423-course-notes/tutorials/go-setup/" >> README.md
     git add README.md
     git commit -m "Initial commit with README"
 
@@ -44,7 +56,7 @@ Visibility: Public<br>
 
 (1) Add the GitHub repository as a remote:
 
-    git remote add origin https://github.com/<your-username>/comp423-course-notes.git
+    git remote add origin https://github.com/<your-username>/comp423-go-tutorial.git
 
 Replace <code>&lt;your-username&gt;</code> with your GitHub username.
 
